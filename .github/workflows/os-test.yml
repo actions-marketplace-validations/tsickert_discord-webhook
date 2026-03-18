@@ -23,7 +23,7 @@ jobs:
           - macos-11
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Upload File
         uses: ./
         with:
